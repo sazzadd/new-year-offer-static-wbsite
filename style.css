@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.section-container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.banner-sec {
+  max-width: 1320px;
+  height: 600px;
+  background-image: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0)),
+    url("images/Banner.png");
+  background-size: cover;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+.banner-sec h5 {
+  color: rgb(255, 255, 255);
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.banner-sec h1 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  padding: 0px 200px;
+}
+.banner-bottom-sec h1 {
+  color: rgb(255, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+  padding: 150px 200px 25px 200px;
+}
+.banner-bottom-sec h4 {
+  color: rgb(255, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+.banner-bottom-sec .banner-bottom-sec h2 {
+  color: rgb(7, 2, 17);
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+}
+
+.banner-bottom-sec {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner-bottom-sec img {
+  width: 802.9px;
+  height: 500px;
+  margin-top: 40px;
+}
+.party-sec {
+  background-image: linear-gradient(
+      90deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url(./images/Vectorrr.png);
+  height: 600px;
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  margin-top: 100px;
+}
+.party-sec h1 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  padding: 126px 120px 0 126px;
+}
+
+.party-sec .left-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  padding: 20px 120px 10px 126px;
+}
+.party-sec a {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  padding: 20px 120px 10px 126px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.party-sec a:hover {
+  color: #eac643;
+}
+.right-content {
+  background-image: url(./images/2024.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  width: 477.16px;
+  height: 464.65px;
+  display: inline block;
+  border-radius: 16px;
+}
+.place {
+  height: 482px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.place article p {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.place article p span {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.place-btn {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.place-btn button {
+  border-radius: 8px;
+  background: rgb(255, 0, 0);
+  color: white;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 32px;
+  border: none;
+}
+.offer-wrraper {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.item-left h5 {
+  color: #ff0000;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+.item-left h1 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  padding: 10px 0px;
+}
+.item-left p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+.item-right {
+  margin-top: 100px;
+}
+.item-right h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+.item-right p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.item-right img {
+  margin-top: 50px;
+}
+.holiday-sec-container {
+  width: 1068px;
+  height: 260px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+}
+#holiday-sec-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#holiday-sec-container h6 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+#holiday-sec-container h1 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  text-align: center;
+}
+#holiday-sec-container h1 span {
+  color: rgb(255, 0, 0);
+}
+#holiday-sec-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  padding: 20px 100px;
+  text-align: center;
+}
+.gallary {
+}
+.gallary h6 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+.gallary h1 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  margin: 16px 0;
+}
+.gallary p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 896px;
+}
+.gallary-img {
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 80px;
+  column-gap: 20px !important;
+}
+.gallary-img img {
+  display: inline;
+  width: 424px;
+  height: 450px;
+}
+.subscribe {
+  height: 616px;
+  border-radius: 16px;
+  background-color: rgba(255, 0, 0, 0.05);
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.sub-content img {
+  width: 131.25px;
+  height: 87.78px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  margin-bottom: 40px;
+}
+/*button inside */
+.buttonIn {
+  width: 300px;
+  position: relative;
+}
+.subscribe h1 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.subscribe p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.buttonIn input {
+  margin: 0px;
+  padding: 10px 10px;
+  width: 100%;
+  outline: none;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  color: #3a372a;
+}
+
+.buttonIn button {
+  position: absolute;
+  top: 0;
+  border-radius: 0px 82px 82px 0px;
+  right: 0px;
+  z-index: 2;
+  border: none;
+  top: 2px;
+  height: 46px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(255, 0, 0);
+  transform: translateX(20px);
+  padding: 0px 30px;
+}
+
+footer {
+  width: 100%;
+  height: 609px;
+  background: rgb(7, 2, 17);
+}
+
+/**/
+footer .first-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+footer .first-row p {
+  padding: 50px 0 20px 0;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+}
+
+.second-row {
+  display: flex;
+  justify-content: center;
+}
+.second-row ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding: 50px 0;
+}
+.second-row ul li {
+  list-style: none;
+}
+.second-row ul li a {
+  text-decoration: none;
+  display: inline;
+  font-size: 30px;
+  color: aliceblue;
+}
+footer .third-row {
+  display: flex;
+  justify-content: space-between;
+}
+footer .third-row {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
